@@ -1,6 +1,6 @@
-let listaSpesa = ["Burro", "Uova", "Farina", "Pane", "Thè", "Acqua"];
-
 /* Lista spesa con ciclo for e while:
+
+let listaSpesa = ["Burro", "Uova", "Farina", "Pane", "Thè", "Acqua"];
 
 for (let i = 0; i < listaSpesa.length; i++) {
     let elementoListaSpesa = listaSpesa[i];
@@ -14,8 +14,10 @@ while (i < listaSpesa.length) {
     i++;
     console.log(elementoListaSpesa);
 }
-*/
 
+//* Lista spesa numerata:
+
+let listaSpesa = ["Burro", "Uova", "Farina", "Pane", "Thè", "Acqua"];
 let i = 0
 
 while (i < listaSpesa.length) {
@@ -23,3 +25,7 @@ while (i < listaSpesa.length) {
     i++;
     console.log(elementoListaSpesa);
 }
+
+*/
+
+// Lista spesa con prompt utente:
